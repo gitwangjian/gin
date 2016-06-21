@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin/binding"
-	"github.com/gin-gonic/gin/render"
+	"github.com/gitwangjian/gin/binding"
+	"github.com/ginwangjian/gin/render"
 	"github.com/manucorporat/sse"
 	"github.com/gitwangjian/net/context"
 )
