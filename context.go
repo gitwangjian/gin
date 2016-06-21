@@ -17,7 +17,7 @@ import (
 	"github.com/gitwangjian/gin/binding"
 	"github.com/ginwangjian/gin/render"
 	"github.com/manucorporat/sse"
-	"github.com/gitwangjian/net/context"
+	"github.com/gitwangjian/net/context"
 )
 
 // Content-Type MIME of the most common data formats
