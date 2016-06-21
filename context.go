@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/gitwangjian/gin/binding"
-	"github.com/ginwangjian/gin/render"
+	"github.com/gitwangjian/gin/render"
 	"github.com/manucorporat/sse"
 	"github.com/gitwangjian/net/context"
 )
