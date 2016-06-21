@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/gin-gonic/gin",
+	"ImportPath": "github.com/gitwangjian/gin",
 	"GoVersion": "go1.5.1",
 	"Deps": [
 		{
@@ -24,7 +24,7 @@
 			"Rev": "f390dcf405f7b83c997eac1b06768bb9f44dec18"
 		},
 		{
-			"ImportPath": "github.com/gitwangjian/net/context",
+			"ImportPath": "github.com/gitwangjian/net/context",
 			"Rev": "f315505cf3349909cdf013ea56690da34e96a451"
 		},
 		{
