@@ -24,7 +24,7 @@
 			"Rev": "f390dcf405f7b83c997eac1b06768bb9f44dec18"
 		},
 		{
-			"ImportPath": "golang.org/x/net/context",
+			"ImportPath": "github.com/gitwangjian/net/context",
 			"Rev": "f315505cf3349909cdf013ea56690da34e96a451"
 		},
 		{
