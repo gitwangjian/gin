@@ -5,7 +5,7 @@
 package binding
 
 import (
-	"github.com/golang/protobuf/proto"
+	"github.com/gitwangjian/protobuf/proto"
 
 	"io/ioutil"
 	"net/http"
