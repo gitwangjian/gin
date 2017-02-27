@@ -36,6 +36,7 @@ type (
 		// Returns true if the response body was already written.
 		Written() bool
 
+		
 		// Forces to write the http header (status code + headers).
 		WriteHeaderNow()
 	}
@@ -65,6 +66,10 @@ func (w *responseWriter) WriteHeader(code int) {
 }
 
 func (w *responseWriter) WriteHeaderNow() {
+	w.Header().Set("Access-Control-Allow-Origin", "*")             //允许访问所有域
+	w.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE")
+	w.Header().Set("Access-Control-Allow-Headers", "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization") //header的类型
+	w.Header().Set("Content-Type", "application/json") 
 	if !w.Written() {
 		w.size = 0
 		w.ResponseWriter.WriteHeader(w.status)
